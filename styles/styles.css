@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: gainsboro;
+    font-family: 'Oswald', sans-serif;
+}
+
+.conteiner{
+    width: 70%;
+    margin: 2% auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(45deg, green, white, green);
+}
+
+h1, p{
+    text-align: center;
+    margin: 10px;
+}
+
+form{
+    width: 500px;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+legend{
+    margin: 0 auto;
+}
+
+fieldset{
+    border: none;
+    padding: 0.3rem 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label{
+    display: block;
+    margin: 0.1rem 0;
+}
+
+input,
+textarea{
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+select{
+    width: 50%;
+    padding: 2px;
+    margin: 5px 25%;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.footer{
+    margin: 0;
+    width: 49%;
+    text-align: center;
+}
+.enlinea{
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+}
+.btn-enviar{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    min-width: 300px;
+}

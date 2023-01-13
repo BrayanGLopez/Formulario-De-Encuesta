@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+            rel="stylesheet">
+        <title>Encuesta</title>
+    </head>
+    <body>
+
+        <section aria-labelledby=""></section>
+
+        <div class="conteiner">
+            <h1 id="title">¿Quien ganara la liga Bet Play?</h1>
+            <p id="description">Cuentanos quien crees que ganara la liga Bet
+                Play de futbol profecional colombiano</p>
+
+            <form action="#" id="survey-form">
+                <fieldset>
+                    <legend>Datos del Participante</legend>
+                    <label for="name-label" id="name-label">Ingresa tu nombre:
+                        <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+                    </label>
+                    <label for="email" id="email-label">Ingresa tu email:
+                        <input type="email" id="email" placeholder="Ingresa tu email" required>
+                    </label>
+                    <label for="number" id="number-label">Ingresa tu edad
+                        <input type="number" id="number" min="18" max="120" placeholder="Edad" required>
+                    </label>
+                    <label for="masculino" class="inline">Sexo: 
+                        <input type="radio" name="sexo" id="masculino" class="enlinea" value="masculino">H
+                    </label>
+                    <label for="femenino" class="inline">
+                        <input type="radio" name="sexo" id="femenino" class="enlinea" value="femenino">M
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de Encueta</legend>
+                    <label for="dropdown">
+                        <select id="dropdown">
+                            <option value="">Selecciona tu equipo ganador</option>
+                            <option value="1">Millonarios</option>
+                            <option value="2">Santa Fe</option>
+                            <option value="3">Pereira</option>
+                            <option value="4">Junior</option>
+                            <option value="5">Aguila Doradas</option>
+                            <option value="6">America de cali</option>
+                            <option value="7">Medellin</option>
+                            <option value="8">Deportivo Pasto</option>
+                        </select>
+                    </label>
+                    <label for="comentario">
+                        <textarea id="comentarios" cols="30" rows="10" placeholder="¿Porque cree que su eleccion sera el ganador?"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Terminos y condiciones</legend>
+                    <label for="terminos" class="inline footer">
+                        <input type="checkbox" id="terminos" class="enlinea" value="#" required>Leido <a href="#"> terminos y condiciones</a>
+                    </label>
+                    <label for="tratamiento" class="inline footer">
+                        <input type="checkbox" id="tratamiento" class="enlinea" value="#" required > Acepto tratamiento de datos
+                    </label>
+                </fieldset>
+                <input type="submit" id="submit" value="Eviar respuesta" class="btn-enviar">
+            </form>
+        </div>
+
+    </body>
+</html>
